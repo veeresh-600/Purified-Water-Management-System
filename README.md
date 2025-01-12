@@ -8,13 +8,13 @@ The Purified Water Management System is a web-based application designed to stre
 Admin Module: For managing orders, suppliers, and reports.<br>
 Customer Module: For placing orders and viewing order history.<br>
 Delivery Module: For tracking deliveries.</li>Delivery Module: For tracking deliveries.<br>
-<h4>Features:<br></h4>
+<h3>Features:<br></h3>
 Order Management: Place, track, and update orders.<br>
 Customer Profiles: Manage customer details and order history.<br>
 Reports:Generate reports on orders and delivery statistics.<br>
 Responsive Design: Easy access on desktop and mobile devices.<br>
 
-<h4>Technologies Used:<br></h4>
+<h3>Technologies Used:<br></h3>
 
 **Programming Languages:** Java (J2EE), JavaScript<br></li>
 **Frontend:** HTML, CSS<br>
@@ -22,7 +22,7 @@ Responsive Design: Easy access on desktop and mobile devices.<br>
 **Database:** MySQL (via XAMPP)<br>
 **Development Tools:** NetBeans IDE (latest version), XAMPP Server<br>
 
-<h4>Setup and Installation**<br></h4>
+<h3>Setup and Installation**<br></h3>
 Follow these steps to set up and run the project:
 
 **1.Clone the Repository:**<br>
@@ -57,7 +57,7 @@ Place new orders, view order history, and update profile.<br>
 **3.Delivery Staff:**<br>
 Track and update delivery status.<br>
 
-<h4>Screenshots:<br></h4>
+<h3>Screenshots:<br></h3>
 Login Page**<br>
 ![water-login](https://github.com/user-attachments/assets/7ffeb20c-dcec-4640-bb34-7356e5b856a6)
 
