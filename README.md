@@ -1,4 +1,4 @@
-#Purified Water Management System#
+#Purified Water Management System
 This repository contains the source code for the Purified Water Management System, developed using NetBeans (recent version) and XAMPP server. This project aims to efficiently manage and monitor the supply and distribution of purified water.
 
 **Overview**
