@@ -1,39 +1,39 @@
-**Purified Water Management System**<br>
+#**<i>Purified Water Management System</i>**<br>
 This repository contains the source code for the Purified Water Management System, developed using NetBeans (recent version) and XAMPP server. This project aims to efficiently manage and monitor the supply and distribution of purified water.
 
-**Overview**
+**Overview**<br>
 The Purified Water Management System is a web-based application designed to streamline the process of managing purified water distribution, ensuring timely delivery, tracking orders, and maintaining customer satisfaction.
 
-**Key Modules:**
+**Key Modules:**<br>
 Admin Module: For managing orders, suppliers, and reports.
 Customer Module: For placing orders and viewing order history.
 Delivery Module: For tracking deliveries.
 
-**Features:**
+**Features:**<br>
 Order Management: Place, track, and update orders.
 Customer Profiles: Manage customer details and order history.
 Reports: Generate reports on orders and delivery statistics.
 Responsive Design: Easy access on desktop and mobile devices.
 
-**Technologies Used:**
+**Technologies Used:**<br>
 Programming Languages: Java (J2EE), JavaScript
 Frontend: HTML, CSS
 Backend: Java Servlets
 Database: MySQL (via XAMPP)
 Development Tools: NetBeans IDE (latest version), XAMPP Server
 
-**Setup and Installation**
+**Setup and Installation**<br>
 Follow these steps to set up and run the project:
 
-**1.Clone the Repository:**
+**1.Clone the Repository:**<br>
 git clone https://github.com/your-username/purified-water-management-system.git
 cd purified-water-management-system
 
-**2.Install Dependencies:**
+**2.Install Dependencies:**<br>
 Install NetBeans (latest version).
 Install and configure XAMPP server.
 
-**3.Set Up Database:**
+**3.Set Up Database:**<br>
 Open phpMyAdmin via XAMPP.
 Create a database named purified_water.
 Import the purified_water.sql file located in the database folder of this repository.
@@ -42,12 +42,12 @@ Import the purified_water.sql file located in the database folder of this reposi
 Open the project in NetBeans.
 Update the database connection settings in the dbConnection.java file.
 
-**5.Run the Project:**
+**5.Run the Project:**<br>
 Start Apache and MySQL from the XAMPP control panel.
 Deploy the project in NetBeans.
 Access the application at http://localhost:8080/your-project-name.
 
-**Usage
+**Usage<br>
 1.Admin:**
 Login with admin credentials.
 Manage customer orders, suppliers, and generate reports.
