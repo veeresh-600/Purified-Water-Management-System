@@ -48,23 +48,23 @@ Deploy the project in NetBeans.
 Access the application at http://localhost:8080/your-project-name.
 
 **Usage<br>
-1.Admin:**
+1.Admin:**<br>
 Login with admin credentials.
 Manage customer orders, suppliers, and generate reports.
-**2.Customer:**
+**2.Customer:**<br>
 Register and login.
 Place new orders, view order history, and update profile.
-**3.Delivery Staff:**
-Track and update delivery status.
+**3.Delivery Staff:**<br>
+Track and update delivery status.<br>
 
-**Screenshots:
-Login Page**
+**Screenshots:<br>
+Login Page**<br>
 ![water-login](https://github.com/user-attachments/assets/7ffeb20c-dcec-4640-bb34-7356e5b856a6)
 
-**User:**
+**User:**<br>
 ![user](https://github.com/user-attachments/assets/01df2957-16c6-494f-afa3-b2e38ce43e00)
 
 
-**Order Management**
+**Order Management**<br>
 ![admin](https://github.com/user-attachments/assets/b4393c7d-b6fe-41c3-b45a-3177b5b51987)
 
