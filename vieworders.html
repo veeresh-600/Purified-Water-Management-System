@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Orders</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <!-- Header content -->
+    </header>
+    <main>
+        <div class="order-table-container">
+            <h2>View Orders</h2>
+            <a href="userhome.html" class="back-button" style="display: inline-block; margin-bottom: 20px; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">Back to Home</a>
+            <table id="order-table">
+                <thead>
+                    <tr>
+                        <th style="border: 1px solid #ddd; padding: 8px;">Order ID</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">Product Name</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">Address</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">Image</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">Quantity</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">Price</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">Total</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">Status</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">Transport</th>
+                        <th style="border: 1px solid #ddd; padding: 8px;">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="order-table-body">
+                    <!-- Table rows will be dynamically added here -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <!-- Footer content -->
+    </footer>
+    <script>
+        // JavaScript code for fetching and displaying order details
+        document.addEventListener("DOMContentLoaded", function() {
+            const orderTableBody = document.getElementById("order-table-body");
+
+            // Function to fetch order details
+            function fetchOrderDetails() {
+                // Make AJAX request to fetch order details from the server
+                fetch("fetch_order_details_endpoint")
+                    .then(response => response.json())
+                    .then(data => {
+                        // Populate the table with order details
+                        populateOrderTable(data);
+                    })
+                    .catch(error => console.error("Error fetching order details:", error));
+            }
+
+            // Function to populate the order table with data
+            function populateOrderTable(orderData) {
+                orderTableBody.innerHTML = ""; // Clear previous content
+
+                // Loop through the order data and create table rows
+                orderData.forEach(order => {
+                    const row = document.createElement("tr");
+                    row.innerHTML = `
+                        <td>${order.order_id}</td>
+                        <td>${order.product_name}</td>
+                        <td>${order.address}</td>
+                        <td><img src="data:image/jpeg;base64,${order.image}" alt="Product Image" style="width: 100px; height: auto;"></td>
+                        <td>${order.quantity}</td>
+                        <td>${order.price}</td>
+                        <td>${order.total}</td>
+                        <td>${order.status}</td>
+                        <td>${order.transport}</td>
+                        <td><button class="cancel-button" data-orderid="${order.order_id}">Cancel</button></td>
+                    `;
+                    orderTableBody.appendChild(row);
+                });
+
+                // Add event listener for cancel buttons
+                orderTableBody.addEventListener("click", function(event) {
+                    if (event.target.classList.contains("cancel-button")) {
+                        const orderId = event.target.getAttribute("data-orderid");
+                        // Call function to cancel the order
+                        cancelOrder(orderId);
+                    }
+                });
+            }
+
+            // Function to cancel an order
+            function cancelOrder(orderId) {
+                // Make AJAX request to cancel the order
+                fetch(`cancel_order_endpoint?orderId=${orderId}`, { method: "POST" })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            // If cancellation was successful, remove the corresponding row from the table
+                            document.querySelector(`[data-orderid="${orderId}"]`).closest("tr").remove();
+                        } else {
+                            console.error("Failed to cancel order:", data.error);
+                        }
+                    })
+                    .catch(error => console.error("Error canceling order:", error));
+            }
+
+            // Initialize page by fetching and displaying order details
+            fetchOrderDetails();
+        });
+    </script>
+</body>
+</html>

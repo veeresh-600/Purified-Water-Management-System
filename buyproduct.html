@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Product</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+        .product-details {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h1>SAVI water Supply</h1>
+            <ul>
+                <li id="my-orders">View Orders</li>
+                <li id="transporters">Transporters</li>
+                <li id="logout">Logout</li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="product-details" id="productDetails"></div>
+            <div class="total-price" id="totalPrice"></div>
+            <button id="makeOrderButton">Make Order</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const productId = urlParams.get("id");
+            const quantity = urlParams.get("quantity");
+            const userId = urlParams.get("userId");
+            const username = urlParams.get("username");
+            const productname = urlParams.get("productname");
+            const image = urlParams.get("image");
+            const price = parseFloat(urlParams.get("price"));
+            const transportCost = 10;
+
+            const productDetailsDiv = document.getElementById("productDetails");
+            const totalPriceDiv = document.getElementById("totalPrice");
+
+            productDetailsDiv.innerHTML = `
+                <p><strong>User ID:</strong> ${userId}</p>
+                <p><strong>Username:</strong> ${username}</p>
+                <p><strong>Product Name:</strong> ${productname}</p>
+                <p><strong>Quantity:</strong> ${quantity}</p>
+                <p><strong>Price per unit:</strong> ${price}</p>
+                <img src="${image}" alt="Product Image" style="width:300px;height:auto;">
+            `;
+
+            const totalPrice = (price * quantity) + transportCost;
+            totalPriceDiv.innerHTML = `<p><strong>Total Price:</strong> ${totalPrice}</p>`;
+
+            document.getElementById("makeOrderButton").addEventListener("click", function() {
+                const orderData = {
+                    productId: productId,
+                    userId: userId,
+                    username: username,
+                    productname: productname,
+                    image: image,
+                    quantity: quantity,
+                    price: price,
+                    totalPrice: totalPrice,
+                    status: "", // Initially empty
+                    transport: "" // Initially empty
+                };
+
+                fetch("OrderServlet", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(orderData)
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        alert("Order placed successfully!");
+                        window.location.href = "userhome.html";
+                    } else {
+                        alert("Failed to place order. Please try again.");
+                    }
+                })
+                .catch(error => {
+                    console.error("Error:", error);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
