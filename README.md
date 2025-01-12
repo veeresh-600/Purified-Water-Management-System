@@ -4,15 +4,15 @@ This repository contains the source code for the Purified Water Management Syste
 <h4>Overview<br></h4>
 The Purified Water Management System is a web-based application designed to streamline the process of managing purified water distribution, ensuring timely delivery, tracking orders, and maintaining customer satisfaction.
 
-<h4>Key Modules:**<br></h4>
+<h4>Key Modules:<br></h4>
 Admin Module: For managing orders, suppliers, and reports.<br>
 Customer Module: For placing orders and viewing order history.<br>
 Delivery Module: For tracking deliveries.</li>Delivery Module: For tracking deliveries.<br>
-<h4>Features:**<br></h4>
-**Order Management:** Place, track, and update orders.<br>
-**Customer Profiles:** Manage customer details and order history.<br>
-**Reports:** Generate reports on orders and delivery statistics.<br>
-**Responsive Design:** Easy access on desktop and mobile devices.<br>
+<h4>Features:<br></h4>
+Order Management: Place, track, and update orders.<br>
+Customer Profiles: Manage customer details and order history.<br>
+Reports:Generate reports on orders and delivery statistics.<br>
+Responsive Design: Easy access on desktop and mobile devices.<br>
 
 <h4>Technologies Used:<br></h4>
 
