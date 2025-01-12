@@ -58,9 +58,8 @@ Place new orders, view order history, and update profile.<br>
 Track and update delivery status.<br>
 
 <h3>Screenshots:<br></h3>
-Login Page<br>
-![water-login](https://github.com/user-attachments/assets/f79bc776-9cbd-4d2a-8e53-9d93d84ed9e4)
-
+Login<br>
+![water-login](https://github.com/user-attachments/assets/f6cb1c5e-66c8-475d-a129-e490ce180d62)
 
 <b>User:</b><br>
 ![user](https://github.com/user-attachments/assets/01df2957-16c6-494f-afa3-b2e38ce43e00)
