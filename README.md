@@ -42,7 +42,7 @@ Import the purified_water.sql file located in the database folder of this reposi
 Open the project in NetBeans.
 Update the database connection settings in the dbConnection.java file.
 
-<b>5.Run the Project:<br></b>
+<b>5.Run the Project:</b><br>
 Start Apache and MySQL from the XAMPP control panel.
 Deploy the project in NetBeans.
 Access the application at http://localhost:8080/your-project-name.
@@ -58,7 +58,7 @@ Place new orders, view order history, and update profile.<br>
 Track and update delivery status.<br>
 
 <h3>Screenshots:<br></h3>
-<b></b>Login Page</b><br>
+<b>Login Page</b><br>
 ![water-login](https://github.com/user-attachments/assets/7ffeb20c-dcec-4640-bb34-7356e5b856a6)
 
 <b>User:</b><br>
