@@ -50,10 +50,10 @@ Access the application at http://localhost:8080/your-project-name.
 **Usage<br>
 1.Admin:**<br>
 Login with admin credentials.
-Manage customer orders, suppliers, and generate reports.
+Manage customer orders, suppliers, and generate reports.<br>
 **2.Customer:**<br>
 Register and login.
-Place new orders, view order history, and update profile.
+Place new orders, view order history, and update profile.<br>
 **3.Delivery Staff:**<br>
 Track and update delivery status.<br>
 
