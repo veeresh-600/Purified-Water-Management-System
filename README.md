@@ -59,7 +59,8 @@ Track and update delivery status.<br>
 
 <h3>Screenshots:<br></h3>
 <b>Login Page</b><br>
-![water-login](https://github.com/user-attachments/assets/7ffeb20c-dcec-4640-bb34-7356e5b856a6)
+![water-login](https://github.com/user-attachments/assets/f79bc776-9cbd-4d2a-8e53-9d93d84ed9e4)
+
 
 <b>User:</b><br>
 ![user](https://github.com/user-attachments/assets/01df2957-16c6-494f-afa3-b2e38ce43e00)
