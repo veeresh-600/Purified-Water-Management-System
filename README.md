@@ -1,20 +1,20 @@
 **<h2><i>Purified Water Management System</i></h2>**<br>
 This repository contains the source code for the Purified Water Management System, developed using NetBeans (recent version) and XAMPP server. This project aims to efficiently manage and monitor the supply and distribution of purified water.
 
-<h4>**Overview**<br></h4>
+<h4>Overview<br></h4>
 The Purified Water Management System is a web-based application designed to streamline the process of managing purified water distribution, ensuring timely delivery, tracking orders, and maintaining customer satisfaction.
 
-**Key Modules:**<br>
+<h4>Key Modules:**<br></h4>
 Admin Module: For managing orders, suppliers, and reports.<br>
 Customer Module: For placing orders and viewing order history.<br>
 Delivery Module: For tracking deliveries.</li>Delivery Module: For tracking deliveries.<br>
-**Features:**<br>
+<h4>Features:**<br></h4>
 **Order Management:** Place, track, and update orders.<br>
 **Customer Profiles:** Manage customer details and order history.<br>
 **Reports:** Generate reports on orders and delivery statistics.<br>
 **Responsive Design:** Easy access on desktop and mobile devices.<br>
 
-**Technologies Used:**<br>
+<h4>Technologies Used:<br></h4>
 
 **Programming Languages:** Java (J2EE), JavaScript<br></li>
 **Frontend:** HTML, CSS<br>
@@ -22,7 +22,7 @@ Delivery Module: For tracking deliveries.</li>Delivery Module: For tracking deli
 **Database:** MySQL (via XAMPP)<br>
 **Development Tools:** NetBeans IDE (latest version), XAMPP Server<br>
 
-**Setup and Installation**<br>
+<h4>Setup and Installation**<br></h4>
 Follow these steps to set up and run the project:
 
 **1.Clone the Repository:**<br>
@@ -47,8 +47,8 @@ Start Apache and MySQL from the XAMPP control panel.
 Deploy the project in NetBeans.
 Access the application at http://localhost:8080/your-project-name.
 
-**Usage<br>
-1.Admin:**<br>
+<h4>Usage<br></h4>
+1.Admin:<br>
 Login with admin credentials.
 Manage customer orders, suppliers, and generate reports.<br>
 **2.Customer:**<br>
@@ -57,7 +57,7 @@ Place new orders, view order history, and update profile.<br>
 **3.Delivery Staff:**<br>
 Track and update delivery status.<br>
 
-**Screenshots:<br>
+<h4>Screenshots:<br></h4>
 Login Page**<br>
 ![water-login](https://github.com/user-attachments/assets/7ffeb20c-dcec-4640-bb34-7356e5b856a6)
 
