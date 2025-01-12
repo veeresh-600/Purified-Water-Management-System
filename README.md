@@ -25,24 +25,24 @@ Responsive Design: Easy access on desktop and mobile devices.<br>
 <h3>Setup and Installation**<br></h3>
 Follow these steps to set up and run the project:
 
-**1.Clone the Repository:**<br>
+<b>1.Clone the Repository:</b><br>
 git clone https://github.com/your-username/purified-water-management-system.git
 cd purified-water-management-system
 
-**2.Install Dependencies:**<br>
+2.Install Dependencies:<br>
 Install NetBeans (latest version).
 Install and configure XAMPP server.
 
-**3.Set Up Database:**<br>
+3.Set Up Database:<br>
 Open phpMyAdmin via XAMPP.
 Create a database named purified_water.
 Import the purified_water.sql file located in the database folder of this repository.
 
-**4.Configure Project:**
+4.Configure Project:
 Open the project in NetBeans.
 Update the database connection settings in the dbConnection.java file.
 
-**5.Run the Project:**<br>
+5.Run the Project:<br>
 Start Apache and MySQL from the XAMPP control panel.
 Deploy the project in NetBeans.
 Access the application at http://localhost:8080/your-project-name.
