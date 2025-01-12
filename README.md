@@ -51,10 +51,10 @@ Access the application at http://localhost:8080/your-project-name.
 <b>1.Admin:<br></b>
 Login with admin credentials.
 Manage customer orders, suppliers, and generate reports.<br>
-<b></b>2.Customer:</b><br>
+<b>2.Customer:</b><br>
 Register and login.
 Place new orders, view order history, and update profile.<br>
-<b></b>3.Delivery Staff:</b><br>
+<b>3.Delivery Staff:</b><br>
 Track and update delivery status.<br>
 
 <h3>Screenshots:<br></h3>
