@@ -10,10 +10,10 @@ Customer Module: For placing orders and viewing order history.
 Delivery Module: For tracking deliveries.
 
 **Features:**<br>
-Order Management: Place, track, and update orders.
+<ul>Order Management: Place, track, and update orders.
 Customer Profiles: Manage customer details and order history.
 Reports: Generate reports on orders and delivery statistics.
-Responsive Design: Easy access on desktop and mobile devices.
+Responsive Design: Easy access on desktop and mobile devices.</ul>
 
 **Technologies Used:**<br>
 **Programming Languages:** Java (J2EE), JavaScript<br>
