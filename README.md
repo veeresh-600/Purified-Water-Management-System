@@ -1,14 +1,13 @@
 **<h2><i>Purified Water Management System</i></h2>**<br>
 This repository contains the source code for the Purified Water Management System, developed using NetBeans (recent version) and XAMPP server. This project aims to efficiently manage and monitor the supply and distribution of purified water.
 
-**Overview**<br>
+<h4>**Overview**<br></h4>
 The Purified Water Management System is a web-based application designed to streamline the process of managing purified water distribution, ensuring timely delivery, tracking orders, and maintaining customer satisfaction.
 
 **Key Modules:**<br>
-
-Admin Module: For managing orders, suppliers, and reports.
-Customer Module: For placing orders and viewing order history.
-Delivery Module: For tracking deliveries.</li>Delivery Module: For tracking deliveries.
+Admin Module: For managing orders, suppliers, and reports.<br>
+Customer Module: For placing orders and viewing order history.<br>
+Delivery Module: For tracking deliveries.</li>Delivery Module: For tracking deliveries.<br>
 **Features:**<br>
 **Order Management:** Place, track, and update orders.<br>
 **Customer Profiles:** Manage customer details and order history.<br>
