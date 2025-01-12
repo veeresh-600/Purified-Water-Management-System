@@ -1,4 +1,4 @@
-#**<i>Purified Water Management System</i>**<br>
+**<h2><i>Purified Water Management System</i></h2>**<br>
 This repository contains the source code for the Purified Water Management System, developed using NetBeans (recent version) and XAMPP server. This project aims to efficiently manage and monitor the supply and distribution of purified water.
 
 **Overview**<br>
@@ -16,11 +16,11 @@ Reports: Generate reports on orders and delivery statistics.
 Responsive Design: Easy access on desktop and mobile devices.
 
 **Technologies Used:**<br>
-Programming Languages: Java (J2EE), JavaScript
-Frontend: HTML, CSS
-Backend: Java Servlets
-Database: MySQL (via XAMPP)
-Development Tools: NetBeans IDE (latest version), XAMPP Server
+Programming Languages: Java (J2EE), JavaScript<br>
+Frontend: HTML, CSS<br>
+Backend: Java Servlets<br>
+Database: MySQL (via XAMPP)<br>
+Development Tools: NetBeans IDE (latest version), XAMPP Server<br>
 
 **Setup and Installation**<br>
 Follow these steps to set up and run the project:
