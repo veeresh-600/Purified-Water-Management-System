@@ -16,11 +16,11 @@ Reports: Generate reports on orders and delivery statistics.
 Responsive Design: Easy access on desktop and mobile devices.
 
 **Technologies Used:**<br>
-Programming Languages: Java (J2EE), JavaScript<br>
-Frontend: HTML, CSS<br>
-Backend: Java Servlets<br>
-Database: MySQL (via XAMPP)<br>
-Development Tools: NetBeans IDE (latest version), XAMPP Server<br>
+**Programming Languages:** Java (J2EE), JavaScript<br>
+**Frontend:** HTML, CSS<br>
+**Backend:** Java Servlets<br>
+**Database:** MySQL (via XAMPP)<br>
+**Development Tools:** NetBeans IDE (latest version), XAMPP Server<br>
 
 **Setup and Installation**<br>
 Follow these steps to set up and run the project:
