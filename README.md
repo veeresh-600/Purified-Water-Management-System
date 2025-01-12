@@ -5,23 +5,26 @@ This repository contains the source code for the Purified Water Management Syste
 The Purified Water Management System is a web-based application designed to streamline the process of managing purified water distribution, ensuring timely delivery, tracking orders, and maintaining customer satisfaction.
 
 **Key Modules:**<br>
-Admin Module: For managing orders, suppliers, and reports.
-Customer Module: For placing orders and viewing order history.
-Delivery Module: For tracking deliveries.
-
+<ul>
+<li>Admin Module: For managing orders, suppliers, and reports.</li>
+<li>Customer Module: For placing orders and viewing order history.</li>
+<li>Delivery Module: For tracking deliveries.</li>Delivery Module: For tracking deliveries.
+</ul>
 **Features:**<br>
-Order Management: Place, track, and update orders.<br>
-Customer Profiles: Manage customer details and order history.<br>
-Reports: Generate reports on orders and delivery statistics.<br>
-Responsive Design: Easy access on desktop and mobile devices.<br>
-
+<ul>
+<li>Order Management: Place, track, and update orders.<br></li>
+<li>Customer Profiles: Manage customer details and order history.<br></li>
+<li>Reports: Generate reports on orders and delivery statistics.<br></li>
+<li>Responsive Design: Easy access on desktop and mobile devices.<br></li>
+</ul>
 **Technologies Used:**<br>
-**Programming Languages:** Java (J2EE), JavaScript<br>
-**Frontend:** HTML, CSS<br>
-**Backend:** Java Servlets<br>
-**Database:** MySQL (via XAMPP)<br>
-**Development Tools:** NetBeans IDE (latest version), XAMPP Server<br>
-
+<ul> 
+<li>**Programming Languages:** Java (J2EE), JavaScript<br></li>
+<li>**Frontend:** HTML, CSS<br></li>
+<li>**Backend:** Java Servlets<br></li>
+<li>**Database:** MySQL (via XAMPP)<br></li>
+<li>**Development Tools:** NetBeans IDE (latest version), XAMPP Server<br></li>
+</ul>
 **Setup and Installation**<br>
 Follow these steps to set up and run the project:
 
